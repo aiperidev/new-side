@@ -1,0 +1,274 @@
+*,*::before,*:after{
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+}
+    html,body{
+        height: 100%;
+    
+}
+.header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: -50;
+}
+.container{
+    max-width: 1100px;
+    margin:0px-auto;
+    padding:0px-10px;
+}
+.header::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.header-body{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.header .menu--navbar{
+    text-transform: uppercase;
+    font-size:18px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu--navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+}
+.menu--navbar__item{
+   
+width: 96px;
+height: 23px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+text-decoration: none;
+}
+.menu--navbar-item{
+    width: 47px;
+height: 23px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+text-decoration: none;
+
+}
+.hero__logo{
+    margin-top: 15px;
+}
+.hero__logo-white{
+  
+
+    width: 61px;
+height: 23px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+color: rgba(214, 212, 212, 0.88);
+
+}
+.hero__logo-red{
+    width: 59px;
+    height: 23px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+color: #B00000;
+
+}
+.hero__title{
+    margin-top: 20px;
+}
+.hero__title_desc{
+    margin-top: 20px;
+}
+.hero__btn-1{
+    margin-top: 35px;
+    padding: 12px;
+width: 160px;
+height: 48px;
+background: #B00000;
+box-shadow: 0px 0px 64px rgba(176, 0, 0, 0.3);
+border-radius: 8px;
+}
+.hero__btn{
+    background: #E5E5E5;
+    margin-left: 30px;
+    padding: 12px;
+    box-shadow: 0px 0px 64px rgba(176, 0, 0, 0.3);
+border-radius: 8px;
+}
+.hero-title{
+    position: absolute;
+width: 573px;
+height: 224px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+
+}
+.test__img{
+  
+    flex-wrap: wrap;
+width: 140.71px;
+height: 30px;
+margin-bottom: 60px;
+}
+
+.test__title{
+    width: 140px;
+    height: 30px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+
+}
+.test__title-1{
+    width: 252px;
+height: 72px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+color: #000000;
+}
+.title-logo{
+    width: 650px;
+height: 120px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+color: #000000;
+
+}
+.title__desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title__btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.test--img{
+    width: 856px;
+    height: 4px;
+    background: #C4C4C4;
+}
+.test__img-1{
+width: 299px;
+height: 716px;
+background: #FFFFFF;
+border: 1.5px solid #C4C4C4;
+box-sizing: border-box;
+box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+margin-top: 190px;
+}
+.col-4{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.logo__title{
+   
+width: 1024px;
+height: 176px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 88px;
+text-align: center;
+color: #2E2E2E;
+}
+.title-btn{ 
+width: 200px;
+height: 48px;
+background: #B00000;
+border-radius: 8px;
+left: 616px;
+}
+.title__btn-white{
+    width: 142px;
+height: 24px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+}
+#container{
+width: 1240px;
+height: 536px;
+left: 0px;
+top: 4502px;
+
+background: #B00000;
+}
+.test__desc{
+    width: 296px;
+    height: 160px;
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+color: #E6E6E6;
+
+}
+.test__des{
+    width: 117px;
+height: 32px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+color: #E6E6E6;
+
+}
+
+
+    
+
